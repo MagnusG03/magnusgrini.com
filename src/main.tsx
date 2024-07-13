@@ -8,6 +8,7 @@ import About from "./About";
 import MagnusGrini from "./projects/MagnusGrini";
 import WeightTracker from "./projects/WeightTracker";
 import Paths from "./projects/Paths";
+import Sparesti from "./projects/Sparesti";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/projects/paths",
     element: <Paths />,
+  },
+  {
+    path: "/projects/sparesti",
+    element: <Sparesti />,
   },
 ]);
 

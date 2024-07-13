@@ -4,6 +4,7 @@ import ProjectPreview from "./components/ProjectPreview";
 import magnusgriniImage from "./assets/projectThumbnails/magnusgrini.com.png";
 import pathsImage from "./assets/projectThumbnails/paths.png";
 import weighttrackerImage from "./assets/projectThumbnails/weighttracker.png";
+import sparestiImage from "./assets/projectImages/sparestiImages/1.png";
 
 function Home() {
   return (
@@ -30,6 +31,11 @@ function Home() {
             title="Paths"
             img={pathsImage}
             link="/projects/paths"
+          />
+          <ProjectPreview
+            title="Sparesti"
+            img={sparestiImage}
+            link="/projects/sparesti"
           />
         </div>
       </div>
