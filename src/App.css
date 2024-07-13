@@ -454,8 +454,17 @@
   margin-bottom: 8vh;
 }
 
+.textImage3 {
+  width: 30vw;
+  max-width: 500px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: 8vh;
+}
+
 .textImageContainer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

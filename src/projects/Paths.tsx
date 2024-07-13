@@ -16,7 +16,7 @@ function Paths() {
           <h3 className="projectAboutText">
             Paths is a decision-based interactive storytelling game engine
             developed by a peer and I for a school project. The program was
-            developed using Java and the JavaFX library. We generated all the
+            developed in february 2023 using Java and the JavaFX library. We generated all the
             images in the program using MidJourney.{" "}
             <Link
               to="https://gitlab.stud.idi.ntnu.no/magngri/group11idatt2001"
