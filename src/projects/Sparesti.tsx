@@ -17,13 +17,21 @@ function Sparesti() {
             for saving, with integrated BankID connection and AI utilization for saving 
             challenge and saving tip creation. The application is functional on both pc 
             and mobile.{" "}
+            Click here for the{" "}
             <Link
               to="https://sparesti.no/auth"
               target="_blank"
             >
-              Click here for the website link.
+               website link.
             </Link>{" "}
-            Unfortunately it is no longer possible to log in, due to the BankID test API no longer being available.
+            Or here for the{" "}
+            <Link
+              to="https://gitlab.stud.idi.ntnu.no/idatt2106_2024_01"
+              target="_blank"
+            >
+               git repository.
+            </Link>{" "}
+            Unfortunately it is no longer possible to log in to the website, due to the BankID test API no longer being available.
           </h3>
         </div>
         <div className="textImageContainer">
