@@ -13,13 +13,14 @@ function About() {
         <h3 className="tertiaryTitle">ABOUT ME</h3>
         <div className="AboutSection">
           <h3 className="aboutText">
-            I am in my second year of Computer Science at The Norwegian
-            University of Science and Technology (NTNU). So far in my studies, I
-            have learned SQL and object-oriented programming in Java, and will
-            learn network programming and full-stack application development
-            before the summer of 2024. On my own time, I have learned how to use
-            HTML, CSS, and both ReactJS and React Native with typescript and
-            javascript.
+          I am about to begin the final year of my bachelor 
+          in Computer Science at The Norwegian University of Science 
+          and Technology (NTNU). So far in my studies, I have learned SQL, 
+          object-oriented programming, network programming and full-stack 
+          application development. Throughout my final year I will also learn 
+          machine learning, cyber security, cryptography, and complete a bachelor's 
+          thesis. I have also developed a handful of computer science related skills 
+          on my own time.
           </h3>
           <h3 className="aboutText">
             I have an international background, with a total of 13 years in
