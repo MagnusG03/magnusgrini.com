@@ -9,6 +9,7 @@ import MagnusGrini from "./projects/MagnusGrini";
 import WeightTracker from "./projects/WeightTracker";
 import Paths from "./projects/Paths";
 import Sparesti from "./projects/Sparesti";
+import Taskster from "./projects/Taskster";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/projects/sparesti",
     element: <Sparesti />,
+  },
+  {
+    path: "/projects/taskster",
+    element: <Taskster />,
   },
 ]);
 

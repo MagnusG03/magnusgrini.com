@@ -5,6 +5,7 @@ import magnusgriniImage from "./assets/projectThumbnails/magnusgrini.com.png";
 import pathsImage from "./assets/projectThumbnails/paths.png";
 import weighttrackerImage from "./assets/projectThumbnails/weighttracker.png";
 import sparestiImage from "./assets/projectImages/sparestiImages/1.png";
+import tasksterImage from "./assets/projectThumbnails/taskster.png";
 
 function Home() {
   return (
@@ -18,14 +19,14 @@ function Home() {
         <h3 className="ProjectsSectionTitle">RECENT PROJECTS</h3>
         <div className="ProjectPreviewSection">
           <ProjectPreview
-            title="MagnusGrini.com"
-            img={magnusgriniImage}
-            link="/projects/magnusgrini"
+            title="Taskster"
+            img={tasksterImage}
+            link="/projects/taskster"
           />
           <ProjectPreview
-            title="Weight Tracker"
-            img={weighttrackerImage}
-            link="/projects/weighttracker"
+            title="Sparesti"
+            img={sparestiImage}
+            link="/projects/sparesti"
           />
           <ProjectPreview
             title="Paths"
@@ -33,9 +34,9 @@ function Home() {
             link="/projects/paths"
           />
           <ProjectPreview
-            title="Sparesti"
-            img={sparestiImage}
-            link="/projects/sparesti"
+            title="Weight Tracker"
+            img={weighttrackerImage}
+            link="/projects/weighttracker"
           />
         </div>
       </div>
